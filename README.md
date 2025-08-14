@@ -35,7 +35,7 @@ Place the generated file here:
 ```text
 dgcnn.pytorch/
 └─ dataset/
-   └─ market_semseg.h5    # ← your generated file (name is up to you)
+   └─ jam_hartleys_strawberry_300gm_1200_2048_segmentation_20480_12000    # ← your generated file (name is up to you)
 ```
 
 > If you use a different path/filename, adjust the corresponding argument or constant in the training script.
