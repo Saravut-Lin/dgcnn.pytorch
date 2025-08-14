@@ -1,0 +1,434 @@
+Experiment: market77_optim
+Namespace(exp_name='market77_optim', model='dgcnn', data_path='/home/s2671222/dgcnn.pytorch/dataset/market77/jam_hartleys_strawberry_300gm_1200_2048_segmentation_20480_12000', batch_size=4, test_batch_size=2, epochs=100, use_sgd=True, lr=0.001, momentum=0.9, scheduler='cos', no_cuda=False, seed=1, num_points=20480, dropout=0.5, emb_dims=1024, k=20, classes=2, workers=2, resume='', cuda=True)
+Using fixed class weights: [0.5555556 5.       ]
+--- Starting Epoch 1/100 ---
+Experiment: market77_optim
+Namespace(exp_name='market77_optim', model='dgcnn', data_path='/home/s2671222/dgcnn.pytorch/dataset/market77/jam_hartleys_strawberry_300gm_1200_2048_segmentation_20480_12000', batch_size=4, test_batch_size=2, epochs=100, use_sgd=True, lr=0.001, momentum=0.9, scheduler='cos', no_cuda=False, seed=1, num_points=20480, dropout=0.5, emb_dims=1024, k=20, classes=2, workers=2, resume='', cuda=True)
+Using fixed class weights: [0.5555556 5.       ]
+Using combined CrossEntropy + Dice loss for single-object segmentation
+--- Starting Epoch 1/100 ---
+Experiment: market77_optim
+Namespace(exp_name='market77_optim', model='dgcnn', data_path='/home/s2671222/dgcnn.pytorch/dataset/market77/jam_hartleys_strawberry_300gm_1200_2048_segmentation_20480_12000', batch_size=4, test_batch_size=2, epochs=100, use_sgd=True, lr=0.001, momentum=0.9, scheduler='cos', no_cuda=False, seed=1, num_points=20480, dropout=0.5, emb_dims=1024, k=20, classes=2, workers=2, resume='', cuda=True)
+Using fixed class weights: [0.5555556 5.       ]
+Using combined CrossEntropy + Dice loss for single-object segmentation
+--- Starting Epoch 1/100 ---
+Experiment: market77_optim
+Namespace(exp_name='market77_optim', model='dgcnn', data_path='/home/s2671222/dgcnn.pytorch/dataset/market77/jam_hartleys_strawberry_300gm_1200_2048_segmentation_20480_12000', batch_size=4, test_batch_size=2, epochs=100, use_sgd=True, lr=0.001, momentum=0.9, scheduler='cos', no_cuda=False, seed=1, num_points=20480, dropout=0.5, emb_dims=1024, k=20, classes=2, workers=2, resume='', cuda=True)
+Using fixed class weights: [0.5555556 5.       ]
+Using combined CrossEntropy + Dice loss for single-object segmentation
+--- Starting Epoch 1/100 ---
+Experiment: market77_optim
+Namespace(exp_name='market77_optim', model='dgcnn', data_path='/home/s2671222/dgcnn.pytorch/dataset/market77/jam_hartleys_strawberry_300gm_1200_2048_segmentation_20480_12000', batch_size=4, test_batch_size=2, epochs=100, use_sgd=True, lr=0.001, momentum=0.9, scheduler='cos', no_cuda=False, seed=1, num_points=20480, dropout=0.5, emb_dims=1024, k=20, classes=2, workers=2, resume='', cuda=True)
+Using fixed class weights: [0.5555556 5.       ]
+Using combined CrossEntropy + Dice loss for single-object segmentation
+--- Starting Epoch 1/100 ---
+Epoch 1 training time: 1672.24s, LR: 0.001000
+Epoch 1: Train Loss 1.0823, Acc 0.6576, IoU_Class0 0.6236, IoU_Class1 0.2088, mIoU 0.4162
+Epoch 1: Val Acc 0.6345, IoU_Class0 0.5960, IoU_Class1 0.2068, Val mIoU 0.4014
+--- Starting Epoch 2/100 ---
+Epoch 2 training time: 1672.67s, LR: 0.001000
+Epoch 2: Train Loss 1.0526, Acc 0.6627, IoU_Class0 0.6286, IoU_Class1 0.2139, mIoU 0.4213
+Epoch 2: Val Acc 0.6877, IoU_Class0 0.6564, IoU_Class1 0.2257, Val mIoU 0.4410
+--- Starting Epoch 3/100 ---
+Epoch 3 training time: 1673.68s, LR: 0.000999
+Epoch 3: Train Loss 0.9927, Acc 0.7473, IoU_Class0 0.7233, IoU_Class1 0.2554, mIoU 0.4894
+Epoch 3: Val Acc 0.7701, IoU_Class0 0.7466, IoU_Class1 0.2882, Val mIoU 0.5174
+--- Starting Epoch 4/100 ---
+Epoch 4 training time: 1674.69s, LR: 0.000998
+Epoch 4: Train Loss 0.8465, Acc 0.8326, IoU_Class0 0.8167, IoU_Class1 0.3417, mIoU 0.5792
+Epoch 4: Val Acc 0.8124, IoU_Class0 0.7929, IoU_Class1 0.3342, Val mIoU 0.5635
+--- Starting Epoch 5/100 ---
+Epoch 5 training time: 1673.52s, LR: 0.000996
+Epoch 5: Train Loss 0.7298, Acc 0.8754, IoU_Class0 0.8634, IoU_Class1 0.4131, mIoU 0.6382
+Epoch 5: Val Acc 0.8851, IoU_Class0 0.8739, IoU_Class1 0.4368, Val mIoU 0.6553
+--- Starting Epoch 6/100 ---
+Epoch 6 training time: 1674.85s, LR: 0.000994
+Epoch 6: Train Loss 0.6517, Acc 0.8998, IoU_Class0 0.8901, IoU_Class1 0.4683, mIoU 0.6792
+Epoch 6: Val Acc 0.8864, IoU_Class0 0.8747, IoU_Class1 0.4502, Val mIoU 0.6624
+--- Starting Epoch 7/100 ---
+Epoch 7 training time: 1673.59s, LR: 0.000991
+Epoch 7: Train Loss 0.6138, Acc 0.9099, IoU_Class0 0.9011, IoU_Class1 0.4953, mIoU 0.6982
+Epoch 7: Val Acc 0.8811, IoU_Class0 0.8686, IoU_Class1 0.4439, Val mIoU 0.6563
+--- Starting Epoch 8/100 ---
+Epoch 8 training time: 1674.44s, LR: 0.000988
+Epoch 8: Train Loss 0.5735, Acc 0.9187, IoU_Class0 0.9107, IoU_Class1 0.5231, mIoU 0.7169
+Epoch 8: Val Acc 0.9439, IoU_Class0 0.9388, IoU_Class1 0.6013, Val mIoU 0.7700
+--- Starting Epoch 9/100 ---
+Epoch 9 training time: 1673.46s, LR: 0.000984
+Epoch 9: Train Loss 0.5180, Acc 0.9303, IoU_Class0 0.9234, IoU_Class1 0.5641, mIoU 0.7438
+Epoch 9: Val Acc 0.9287, IoU_Class0 0.9213, IoU_Class1 0.5678, Val mIoU 0.7446
+--- Starting Epoch 10/100 ---
+Epoch 10 training time: 1674.68s, LR: 0.000980
+Epoch 10: Train Loss 0.4608, Acc 0.9412, IoU_Class0 0.9353, IoU_Class1 0.6079, mIoU 0.7716
+Epoch 10: Val Acc 0.9592, IoU_Class0 0.9551, IoU_Class1 0.6895, Val mIoU 0.8223
+--- Starting Epoch 11/100 ---
+Epoch 11 training time: 1673.49s, LR: 0.000976
+Epoch 11: Train Loss 0.4068, Acc 0.9498, IoU_Class0 0.9447, IoU_Class1 0.6479, mIoU 0.7963
+Epoch 11: Val Acc 0.9622, IoU_Class0 0.9583, IoU_Class1 0.7126, Val mIoU 0.8354
+--- Starting Epoch 12/100 ---
+Epoch 12 training time: 1674.35s, LR: 0.000970
+Epoch 12: Train Loss 0.3616, Acc 0.9568, IoU_Class0 0.9523, IoU_Class1 0.6833, mIoU 0.8178
+Epoch 12: Val Acc 0.9638, IoU_Class0 0.9599, IoU_Class1 0.7292, Val mIoU 0.8446
+--- Starting Epoch 13/100 ---
+Epoch 13 training time: 1673.14s, LR: 0.000965
+Epoch 13: Train Loss 0.3060, Acc 0.9647, IoU_Class0 0.9610, IoU_Class1 0.7277, mIoU 0.8443
+Epoch 13: Val Acc 0.9554, IoU_Class0 0.9505, IoU_Class1 0.6871, Val mIoU 0.8188
+--- Starting Epoch 14/100 ---
+Epoch 14 training time: 1674.35s, LR: 0.000959
+Epoch 14: Train Loss 0.2794, Acc 0.9682, IoU_Class0 0.9648, IoU_Class1 0.7487, mIoU 0.8568
+Epoch 14: Val Acc 0.9779, IoU_Class0 0.9756, IoU_Class1 0.8144, Val mIoU 0.8950
+--- Starting Epoch 15/100 ---
+Epoch 15 training time: 1673.47s, LR: 0.000952
+Epoch 15: Train Loss 0.2586, Acc 0.9713, IoU_Class0 0.9682, IoU_Class1 0.7680, mIoU 0.8681
+Epoch 15: Val Acc 0.9822, IoU_Class0 0.9803, IoU_Class1 0.8426, Val mIoU 0.9115
+--- Starting Epoch 16/100 ---
+Epoch 16 training time: 1674.27s, LR: 0.000946
+Epoch 16: Train Loss 0.2403, Acc 0.9736, IoU_Class0 0.9708, IoU_Class1 0.7834, mIoU 0.8771
+Epoch 16: Val Acc 0.9820, IoU_Class0 0.9801, IoU_Class1 0.8413, Val mIoU 0.9107
+--- Starting Epoch 17/100 ---
+Epoch 17 training time: 1673.22s, LR: 0.000938
+Epoch 17: Train Loss 0.2148, Acc 0.9766, IoU_Class0 0.9741, IoU_Class1 0.8043, mIoU 0.8892
+Epoch 17: Val Acc 0.9832, IoU_Class0 0.9815, IoU_Class1 0.8499, Val mIoU 0.9157
+--- Starting Epoch 18/100 ---
+Epoch 18 training time: 1673.42s, LR: 0.000930
+Epoch 18: Train Loss 0.2079, Acc 0.9776, IoU_Class0 0.9752, IoU_Class1 0.8111, mIoU 0.8932
+Epoch 18: Val Acc 0.9639, IoU_Class0 0.9601, IoU_Class1 0.7293, Val mIoU 0.8447
+--- Starting Epoch 19/100 ---
+Epoch 19 training time: 1674.39s, LR: 0.000922
+Epoch 19: Train Loss 0.2066, Acc 0.9778, IoU_Class0 0.9754, IoU_Class1 0.8125, mIoU 0.8939
+Epoch 19: Val Acc 0.9814, IoU_Class0 0.9794, IoU_Class1 0.8417, Val mIoU 0.9105
+--- Starting Epoch 20/100 ---
+Epoch 20 training time: 1673.17s, LR: 0.000914
+Epoch 20: Train Loss 0.1837, Acc 0.9804, IoU_Class0 0.9783, IoU_Class1 0.8311, mIoU 0.9047
+Epoch 20: Val Acc 0.9845, IoU_Class0 0.9828, IoU_Class1 0.8624, Val mIoU 0.9226
+--- Starting Epoch 21/100 ---
+Epoch 21 training time: 1674.38s, LR: 0.000905
+Epoch 21: Train Loss 0.1747, Acc 0.9813, IoU_Class0 0.9793, IoU_Class1 0.8383, mIoU 0.9088
+Epoch 21: Val Acc 0.9823, IoU_Class0 0.9803, IoU_Class1 0.8479, Val mIoU 0.9141
+--- Starting Epoch 22/100 ---
+Epoch 22 training time: 1673.19s, LR: 0.000895
+Epoch 22: Train Loss 0.1707, Acc 0.9818, IoU_Class0 0.9798, IoU_Class1 0.8419, mIoU 0.9109
+Epoch 22: Val Acc 0.9889, IoU_Class0 0.9877, IoU_Class1 0.8974, Val mIoU 0.9426
+--- Starting Epoch 23/100 ---
+Epoch 23 training time: 1674.36s, LR: 0.000885
+Epoch 23: Train Loss 0.1682, Acc 0.9824, IoU_Class0 0.9805, IoU_Class1 0.8460, mIoU 0.9132
+Epoch 23: Val Acc 0.9811, IoU_Class0 0.9793, IoU_Class1 0.8257, Val mIoU 0.9025
+--- Starting Epoch 24/100 ---
+Epoch 24 training time: 1673.10s, LR: 0.000875
+Epoch 24: Train Loss 0.1623, Acc 0.9828, IoU_Class0 0.9809, IoU_Class1 0.8494, mIoU 0.9152
+Epoch 24: Val Acc 0.9837, IoU_Class0 0.9820, IoU_Class1 0.8584, Val mIoU 0.9202
+--- Starting Epoch 25/100 ---
+Epoch 25 training time: 1674.66s, LR: 0.000865
+Epoch 25: Train Loss 0.1593, Acc 0.9832, IoU_Class0 0.9813, IoU_Class1 0.8523, mIoU 0.9168
+Epoch 25: Val Acc 0.9782, IoU_Class0 0.9758, IoU_Class1 0.8203, Val mIoU 0.8981
+--- Starting Epoch 26/100 ---
+Epoch 26 training time: 1673.19s, LR: 0.000854
+Epoch 26: Train Loss 0.1483, Acc 0.9845, IoU_Class0 0.9828, IoU_Class1 0.8623, mIoU 0.9225
+Epoch 26: Val Acc 0.9768, IoU_Class0 0.9742, IoU_Class1 0.8112, Val mIoU 0.8927
+--- Starting Epoch 27/100 ---
+Epoch 27 training time: 1674.54s, LR: 0.000842
+Epoch 27: Train Loss 0.1529, Acc 0.9842, IoU_Class0 0.9825, IoU_Class1 0.8602, mIoU 0.9213
+Epoch 27: Val Acc 0.9783, IoU_Class0 0.9759, IoU_Class1 0.8211, Val mIoU 0.8985
+--- Starting Epoch 28/100 ---
+Epoch 28 training time: 1673.22s, LR: 0.000831
+Epoch 28: Train Loss 0.1407, Acc 0.9853, IoU_Class0 0.9837, IoU_Class1 0.8689, mIoU 0.9263
+Epoch 28: Val Acc 0.9743, IoU_Class0 0.9715, IoU_Class1 0.7941, Val mIoU 0.8828
+--- Starting Epoch 29/100 ---
+Epoch 29 training time: 1674.62s, LR: 0.000819
+Epoch 29: Train Loss 0.1296, Acc 0.9866, IoU_Class0 0.9851, IoU_Class1 0.8791, mIoU 0.9321
+Epoch 29: Val Acc 0.9612, IoU_Class0 0.9569, IoU_Class1 0.7193, Val mIoU 0.8381
+--- Starting Epoch 30/100 ---
+Epoch 30 training time: 1673.11s, LR: 0.000807
+Epoch 30: Train Loss 0.1301, Acc 0.9864, IoU_Class0 0.9849, IoU_Class1 0.8775, mIoU 0.9312
+Epoch 30: Val Acc 0.9824, IoU_Class0 0.9805, IoU_Class1 0.8500, Val mIoU 0.9152
+--- Starting Epoch 31/100 ---
+Epoch 31 training time: 1673.81s, LR: 0.000794
+Epoch 31: Train Loss 0.1250, Acc 0.9869, IoU_Class0 0.9855, IoU_Class1 0.8823, mIoU 0.9339
+Epoch 31: Val Acc 0.9893, IoU_Class0 0.9882, IoU_Class1 0.9009, Val mIoU 0.9445
+--- Starting Epoch 32/100 ---
+Epoch 32 training time: 1671.43s, LR: 0.000781
+Epoch 32: Train Loss 0.1200, Acc 0.9876, IoU_Class0 0.9862, IoU_Class1 0.8873, mIoU 0.9368
+Epoch 32: Val Acc 0.9905, IoU_Class0 0.9894, IoU_Class1 0.9123, Val mIoU 0.9509
+--- Starting Epoch 33/100 ---
+Epoch 33 training time: 1671.70s, LR: 0.000768
+Epoch 33: Train Loss 0.1174, Acc 0.9878, IoU_Class0 0.9865, IoU_Class1 0.8893, mIoU 0.9379
+Epoch 33: Val Acc 0.9826, IoU_Class0 0.9806, IoU_Class1 0.8511, Val mIoU 0.9159
+--- Starting Epoch 34/100 ---
+Epoch 34 training time: 1671.26s, LR: 0.000755
+Epoch 34: Train Loss 0.1087, Acc 0.9888, IoU_Class0 0.9876, IoU_Class1 0.8978, mIoU 0.9427
+Epoch 34: Val Acc 0.9880, IoU_Class0 0.9867, IoU_Class1 0.8922, Val mIoU 0.9395
+--- Starting Epoch 35/100 ---
+Epoch 35 training time: 1671.64s, LR: 0.000741
+Epoch 35: Train Loss 0.1112, Acc 0.9886, IoU_Class0 0.9874, IoU_Class1 0.8961, mIoU 0.9417
+Epoch 35: Val Acc 0.9828, IoU_Class0 0.9809, IoU_Class1 0.8530, Val mIoU 0.9170
+--- Starting Epoch 36/100 ---
+Experiment: market77_optim
+Namespace(exp_name='market77_optim', model='dgcnn', data_path='/home/s2671222/dgcnn.pytorch/dataset/market77/jam_hartleys_strawberry_300gm_1200_2048_segmentation_20480_12000', batch_size=4, test_batch_size=2, epochs=100, use_sgd=True, lr=0.001, momentum=0.9, scheduler='cos', no_cuda=False, seed=1, num_points=20480, dropout=0.5, emb_dims=1024, k=20, classes=2, workers=2, resume='/home/s2671222/dgcnn.pytorch/outputs/market77_optim/models/ckpt_epoch_35.pth', cuda=True)
+Using fixed class weights: [0.5555556 5.       ]
+Using combined CrossEntropy + Dice loss for single-object segmentation
+Experiment: market77_optim
+Namespace(exp_name='market77_optim', model='dgcnn', data_path='/home/s2671222/dgcnn.pytorch/dataset/market77/jam_hartleys_strawberry_300gm_1200_2048_segmentation_20480_12000', batch_size=4, test_batch_size=2, epochs=100, use_sgd=True, lr=0.001, momentum=0.9, scheduler='cos', no_cuda=False, seed=1, num_points=20480, dropout=0.5, emb_dims=1024, k=20, classes=2, workers=2, resume='/home/s2671222/dgcnn.pytorch/outputs/market77_optim/models/ckpt_epoch_35.pth', cuda=True)
+Using fixed class weights: [0.5555556 5.       ]
+Using combined CrossEntropy + Dice loss for single-object segmentation
+Resuming from epoch 35, best mIoU=0.9509
+--- Starting Epoch 36/100 ---
+Epoch 36 training time: 1677.29s, LR: 0.000727
+Epoch 36: Train Loss 0.1085, Acc 0.9889, IoU_Class0 0.9876, IoU_Class1 0.8979, mIoU 0.9428
+Epoch 36: Val Acc 0.9867, IoU_Class0 0.9853, IoU_Class1 0.8820, Val mIoU 0.9336
+--- Starting Epoch 37/100 ---
+Epoch 37 training time: 1671.45s, LR: 0.000713
+Epoch 37: Train Loss 0.1013, Acc 0.9896, IoU_Class0 0.9884, IoU_Class1 0.9040, mIoU 0.9462
+Epoch 37: Val Acc 0.9919, IoU_Class0 0.9910, IoU_Class1 0.9244, Val mIoU 0.9577
+--- Starting Epoch 38/100 ---
+Epoch 38 training time: 1673.04s, LR: 0.000699
+Epoch 38: Train Loss 0.1000, Acc 0.9898, IoU_Class0 0.9887, IoU_Class1 0.9061, mIoU 0.9474
+Epoch 38: Val Acc 0.9886, IoU_Class0 0.9873, IoU_Class1 0.8970, Val mIoU 0.9422
+--- Starting Epoch 39/100 ---
+Epoch 39 training time: 1674.80s, LR: 0.000684
+Epoch 39: Train Loss 0.0993, Acc 0.9900, IoU_Class0 0.9889, IoU_Class1 0.9074, mIoU 0.9481
+Epoch 39: Val Acc 0.9785, IoU_Class0 0.9761, IoU_Class1 0.8225, Val mIoU 0.8993
+--- Starting Epoch 40/100 ---
+Epoch 40 training time: 1673.17s, LR: 0.000670
+Epoch 40: Train Loss 0.0922, Acc 0.9906, IoU_Class0 0.9895, IoU_Class1 0.9125, mIoU 0.9510
+Epoch 40: Val Acc 0.9904, IoU_Class0 0.9894, IoU_Class1 0.9112, Val mIoU 0.9503
+--- Starting Epoch 41/100 ---
+Epoch 41 training time: 1674.91s, LR: 0.000655
+Epoch 41: Train Loss 0.0881, Acc 0.9909, IoU_Class0 0.9899, IoU_Class1 0.9155, mIoU 0.9527
+Epoch 41: Val Acc 0.9891, IoU_Class0 0.9879, IoU_Class1 0.9009, Val mIoU 0.9444
+--- Starting Epoch 42/100 ---
+Epoch 42 training time: 1673.35s, LR: 0.000640
+Epoch 42: Train Loss 0.0867, Acc 0.9912, IoU_Class0 0.9902, IoU_Class1 0.9176, mIoU 0.9539
+Epoch 42: Val Acc 0.9793, IoU_Class0 0.9770, IoU_Class1 0.8281, Val mIoU 0.9025
+--- Starting Epoch 43/100 ---
+Epoch 43 training time: 1675.20s, LR: 0.000625
+Epoch 43: Train Loss 0.0898, Acc 0.9909, IoU_Class0 0.9900, IoU_Class1 0.9157, mIoU 0.9529
+Epoch 43: Val Acc 0.9933, IoU_Class0 0.9926, IoU_Class1 0.9364, Val mIoU 0.9645
+--- Starting Epoch 44/100 ---
+Epoch 44 training time: 1673.20s, LR: 0.000609
+Epoch 44: Train Loss 0.0799, Acc 0.9920, IoU_Class0 0.9911, IoU_Class1 0.9248, mIoU 0.9580
+Epoch 44: Val Acc 0.9935, IoU_Class0 0.9928, IoU_Class1 0.9383, Val mIoU 0.9655
+--- Starting Epoch 45/100 ---
+Epoch 45 training time: 1674.81s, LR: 0.000594
+Epoch 45: Train Loss 0.0775, Acc 0.9922, IoU_Class0 0.9914, IoU_Class1 0.9269, mIoU 0.9591
+Epoch 45: Val Acc 0.9948, IoU_Class0 0.9943, IoU_Class1 0.9504, Val mIoU 0.9723
+--- Starting Epoch 46/100 ---
+Epoch 46 training time: 1673.08s, LR: 0.000579
+Epoch 46: Train Loss 0.0825, Acc 0.9918, IoU_Class0 0.9909, IoU_Class1 0.9228, mIoU 0.9568
+Epoch 46: Val Acc 0.9855, IoU_Class0 0.9839, IoU_Class1 0.8730, Val mIoU 0.9284
+--- Starting Epoch 47/100 ---
+Epoch 47 training time: 1673.59s, LR: 0.000563
+Epoch 47: Train Loss 0.0799, Acc 0.9920, IoU_Class0 0.9911, IoU_Class1 0.9246, mIoU 0.9578
+Epoch 47: Val Acc 0.9961, IoU_Class0 0.9957, IoU_Class1 0.9622, Val mIoU 0.9790
+--- Starting Epoch 48/100 ---
+Epoch 48 training time: 1671.26s, LR: 0.000548
+Epoch 48: Train Loss 0.0745, Acc 0.9925, IoU_Class0 0.9917, IoU_Class1 0.9294, mIoU 0.9606
+Epoch 48: Val Acc 0.9937, IoU_Class0 0.9930, IoU_Class1 0.9402, Val mIoU 0.9666
+--- Starting Epoch 49/100 ---
+Epoch 49 training time: 1673.40s, LR: 0.000532
+Epoch 49: Train Loss 0.0745, Acc 0.9925, IoU_Class0 0.9917, IoU_Class1 0.9297, mIoU 0.9607
+Epoch 49: Val Acc 0.9951, IoU_Class0 0.9946, IoU_Class1 0.9533, Val mIoU 0.9739
+--- Starting Epoch 50/100 ---
+Epoch 50 training time: 1671.61s, LR: 0.000516
+Epoch 50: Train Loss 0.0714, Acc 0.9928, IoU_Class0 0.9921, IoU_Class1 0.9324, mIoU 0.9622
+Epoch 50: Val Acc 0.9925, IoU_Class0 0.9917, IoU_Class1 0.9303, Val mIoU 0.9610
+--- Starting Epoch 51/100 ---
+Epoch 51 training time: 1673.61s, LR: 0.000501
+Epoch 51: Train Loss 0.0695, Acc 0.9931, IoU_Class0 0.9923, IoU_Class1 0.9344, mIoU 0.9633
+Epoch 51: Val Acc 0.9871, IoU_Class0 0.9856, IoU_Class1 0.8850, Val mIoU 0.9353
+--- Starting Epoch 52/100 ---
+Epoch 52 training time: 1671.48s, LR: 0.000485
+Epoch 52: Train Loss 0.0653, Acc 0.9935, IoU_Class0 0.9928, IoU_Class1 0.9384, mIoU 0.9656
+Epoch 52: Val Acc 0.9940, IoU_Class0 0.9934, IoU_Class1 0.9434, Val mIoU 0.9684
+--- Starting Epoch 53/100 ---
+Epoch 53 training time: 1672.78s, LR: 0.000469
+Epoch 53: Train Loss 0.0614, Acc 0.9939, IoU_Class0 0.9932, IoU_Class1 0.9417, mIoU 0.9674
+Epoch 53: Val Acc 0.9921, IoU_Class0 0.9912, IoU_Class1 0.9266, Val mIoU 0.9589
+--- Starting Epoch 54/100 ---
+Epoch 54 training time: 1672.63s, LR: 0.000453
+Epoch 54: Train Loss 0.0651, Acc 0.9935, IoU_Class0 0.9928, IoU_Class1 0.9383, mIoU 0.9655
+Epoch 54: Val Acc 0.9944, IoU_Class0 0.9938, IoU_Class1 0.9469, Val mIoU 0.9703
+--- Starting Epoch 55/100 ---
+Epoch 55 training time: 1672.25s, LR: 0.000438
+Epoch 55: Train Loss 0.0606, Acc 0.9939, IoU_Class0 0.9933, IoU_Class1 0.9422, mIoU 0.9677
+Epoch 55: Val Acc 0.9946, IoU_Class0 0.9940, IoU_Class1 0.9482, Val mIoU 0.9711
+--- Starting Epoch 56/100 ---
+Epoch 56 training time: 1673.01s, LR: 0.000422
+Epoch 56: Train Loss 0.0589, Acc 0.9941, IoU_Class0 0.9934, IoU_Class1 0.9434, mIoU 0.9684
+Epoch 56: Val Acc 0.9922, IoU_Class0 0.9914, IoU_Class1 0.9276, Val mIoU 0.9595
+--- Starting Epoch 57/100 ---
+Epoch 57 training time: 1672.25s, LR: 0.000407
+Epoch 57: Train Loss 0.0569, Acc 0.9943, IoU_Class0 0.9937, IoU_Class1 0.9458, mIoU 0.9698
+Epoch 57: Val Acc 0.9943, IoU_Class0 0.9937, IoU_Class1 0.9457, Val mIoU 0.9697
+--- Starting Epoch 58/100 ---
+Epoch 58 training time: 1672.89s, LR: 0.000392
+Epoch 58: Train Loss 0.0581, Acc 0.9943, IoU_Class0 0.9936, IoU_Class1 0.9451, mIoU 0.9694
+Epoch 58: Val Acc 0.9934, IoU_Class0 0.9927, IoU_Class1 0.9379, Val mIoU 0.9653
+--- Starting Epoch 59/100 ---
+Epoch 59 training time: 1672.35s, LR: 0.000376
+Epoch 59: Train Loss 0.0528, Acc 0.9947, IoU_Class0 0.9941, IoU_Class1 0.9491, mIoU 0.9716
+Epoch 59: Val Acc 0.9919, IoU_Class0 0.9910, IoU_Class1 0.9253, Val mIoU 0.9582
+--- Starting Epoch 60/100 ---
+Epoch 60 training time: 1672.84s, LR: 0.000361
+Epoch 60: Train Loss 0.0542, Acc 0.9946, IoU_Class0 0.9940, IoU_Class1 0.9481, mIoU 0.9710
+Epoch 60: Val Acc 0.9921, IoU_Class0 0.9912, IoU_Class1 0.9267, Val mIoU 0.9590
+--- Starting Epoch 61/100 ---
+Epoch 61 training time: 1671.93s, LR: 0.000346
+Epoch 61: Train Loss 0.0513, Acc 0.9949, IoU_Class0 0.9943, IoU_Class1 0.9510, mIoU 0.9727
+Epoch 61: Val Acc 0.9945, IoU_Class0 0.9939, IoU_Class1 0.9479, Val mIoU 0.9709
+--- Starting Epoch 62/100 ---
+Epoch 62 training time: 1673.15s, LR: 0.000331
+Epoch 62: Train Loss 0.0488, Acc 0.9951, IoU_Class0 0.9945, IoU_Class1 0.9527, mIoU 0.9736
+Epoch 62: Val Acc 0.9922, IoU_Class0 0.9913, IoU_Class1 0.9276, Val mIoU 0.9594
+--- Starting Epoch 63/100 ---
+Epoch 63 training time: 1673.93s, LR: 0.000317
+Epoch 63: Train Loss 0.0471, Acc 0.9953, IoU_Class0 0.9947, IoU_Class1 0.9544, mIoU 0.9745
+Epoch 63: Val Acc 0.9934, IoU_Class0 0.9926, IoU_Class1 0.9378, Val mIoU 0.9652
+--- Starting Epoch 64/100 ---
+Epoch 64 training time: 1673.17s, LR: 0.000302
+Epoch 64: Train Loss 0.0454, Acc 0.9954, IoU_Class0 0.9949, IoU_Class1 0.9561, mIoU 0.9755
+Epoch 64: Val Acc 0.9961, IoU_Class0 0.9957, IoU_Class1 0.9628, Val mIoU 0.9793
+--- Starting Epoch 65/100 ---
+Epoch 65 training time: 1671.91s, LR: 0.000288
+Epoch 65: Train Loss 0.0465, Acc 0.9954, IoU_Class0 0.9949, IoU_Class1 0.9557, mIoU 0.9753
+Epoch 65: Val Acc 0.9940, IoU_Class0 0.9933, IoU_Class1 0.9431, Val mIoU 0.9682
+--- Starting Epoch 66/100 ---
+Epoch 66 training time: 1672.60s, LR: 0.000274
+Epoch 66: Train Loss 0.0436, Acc 0.9956, IoU_Class0 0.9952, IoU_Class1 0.9580, mIoU 0.9766
+Epoch 66: Val Acc 0.9957, IoU_Class0 0.9953, IoU_Class1 0.9591, Val mIoU 0.9772
+--- Starting Epoch 67/100 ---
+Epoch 67 training time: 1672.14s, LR: 0.000260
+Epoch 67: Train Loss 0.0442, Acc 0.9956, IoU_Class0 0.9951, IoU_Class1 0.9574, mIoU 0.9763
+Epoch 67: Val Acc 0.9957, IoU_Class0 0.9952, IoU_Class1 0.9588, Val mIoU 0.9770
+--- Starting Epoch 68/100 ---
+Epoch 68 training time: 1671.85s, LR: 0.000246
+Epoch 68: Train Loss 0.0434, Acc 0.9957, IoU_Class0 0.9952, IoU_Class1 0.9583, mIoU 0.9767
+Epoch 68: Val Acc 0.9958, IoU_Class0 0.9953, IoU_Class1 0.9596, Val mIoU 0.9775
+--- Starting Epoch 69/100 ---
+Epoch 69 training time: 1672.00s, LR: 0.000233
+Epoch 69: Train Loss 0.0401, Acc 0.9960, IoU_Class0 0.9956, IoU_Class1 0.9614, mIoU 0.9785
+Epoch 69: Val Acc 0.9932, IoU_Class0 0.9925, IoU_Class1 0.9365, Val mIoU 0.9645
+--- Starting Epoch 70/100 ---
+Epoch 70 training time: 1671.72s, LR: 0.000220
+Epoch 70: Train Loss 0.0384, Acc 0.9962, IoU_Class0 0.9958, IoU_Class1 0.9631, mIoU 0.9794
+Epoch 70: Val Acc 0.9944, IoU_Class0 0.9937, IoU_Class1 0.9466, Val mIoU 0.9702
+--- Starting Epoch 71/100 ---
+Epoch 71 training time: 1673.32s, LR: 0.000207
+Epoch 71: Train Loss 0.0388, Acc 0.9961, IoU_Class0 0.9957, IoU_Class1 0.9625, mIoU 0.9791
+Epoch 71: Val Acc 0.9950, IoU_Class0 0.9945, IoU_Class1 0.9527, Val mIoU 0.9736
+--- Starting Epoch 72/100 ---
+Epoch 72 training time: 1673.97s, LR: 0.000194
+Epoch 72: Train Loss 0.0386, Acc 0.9961, IoU_Class0 0.9957, IoU_Class1 0.9627, mIoU 0.9792
+Epoch 72: Val Acc 0.9955, IoU_Class0 0.9950, IoU_Class1 0.9568, Val mIoU 0.9759
+--- Starting Epoch 73/100 ---
+Epoch 73 training time: 1676.26s, LR: 0.000182
+Epoch 73: Train Loss 0.0369, Acc 0.9964, IoU_Class0 0.9960, IoU_Class1 0.9649, mIoU 0.9804
+Epoch 73: Val Acc 0.9942, IoU_Class0 0.9935, IoU_Class1 0.9448, Val mIoU 0.9692
+--- Starting Epoch 74/100 ---
+Epoch 74 training time: 1674.65s, LR: 0.000170
+Epoch 74: Train Loss 0.0365, Acc 0.9964, IoU_Class0 0.9960, IoU_Class1 0.9649, mIoU 0.9804
+Epoch 74: Val Acc 0.9961, IoU_Class0 0.9956, IoU_Class1 0.9620, Val mIoU 0.9788
+--- Starting Epoch 75/100 ---
+Epoch 75 training time: 1677.07s, LR: 0.000159
+Epoch 75: Train Loss 0.0349, Acc 0.9965, IoU_Class0 0.9961, IoU_Class1 0.9661, mIoU 0.9811
+Epoch 75: Val Acc 0.9946, IoU_Class0 0.9940, IoU_Class1 0.9490, Val mIoU 0.9715
+--- Starting Epoch 76/100 ---
+Epoch 76 training time: 1674.15s, LR: 0.000147
+Epoch 76: Train Loss 0.0339, Acc 0.9966, IoU_Class0 0.9962, IoU_Class1 0.9670, mIoU 0.9816
+Epoch 76: Val Acc 0.9950, IoU_Class0 0.9945, IoU_Class1 0.9526, Val mIoU 0.9736
+--- Starting Epoch 77/100 ---
+Epoch 77 training time: 1676.39s, LR: 0.000136
+Epoch 77: Train Loss 0.0324, Acc 0.9968, IoU_Class0 0.9964, IoU_Class1 0.9684, mIoU 0.9824
+Epoch 77: Val Acc 0.9936, IoU_Class0 0.9928, IoU_Class1 0.9394, Val mIoU 0.9661
+--- Starting Epoch 78/100 ---
+Epoch 78 training time: 1674.33s, LR: 0.000126
+Epoch 78: Train Loss 0.0331, Acc 0.9967, IoU_Class0 0.9963, IoU_Class1 0.9679, mIoU 0.9821
+Epoch 78: Val Acc 0.9964, IoU_Class0 0.9960, IoU_Class1 0.9653, Val mIoU 0.9807
+--- Starting Epoch 79/100 ---
+Epoch 79 training time: 1676.66s, LR: 0.000116
+Epoch 79: Train Loss 0.0313, Acc 0.9969, IoU_Class0 0.9966, IoU_Class1 0.9698, mIoU 0.9832
+Epoch 79: Val Acc 0.9971, IoU_Class0 0.9968, IoU_Class1 0.9715, Val mIoU 0.9841
+--- Starting Epoch 80/100 ---
+Epoch 80 training time: 1674.59s, LR: 0.000106
+Epoch 80: Train Loss 0.0313, Acc 0.9969, IoU_Class0 0.9965, IoU_Class1 0.9697, mIoU 0.9831
+Epoch 80: Val Acc 0.9970, IoU_Class0 0.9966, IoU_Class1 0.9705, Val mIoU 0.9836
+--- Starting Epoch 81/100 ---
+Epoch 81 training time: 1676.84s, LR: 0.000096
+Epoch 81: Train Loss 0.0302, Acc 0.9970, IoU_Class0 0.9967, IoU_Class1 0.9708, mIoU 0.9837
+Epoch 81: Val Acc 0.9969, IoU_Class0 0.9966, IoU_Class1 0.9699, Val mIoU 0.9832
+--- Starting Epoch 82/100 ---
+Epoch 82 training time: 1674.61s, LR: 0.000087
+Epoch 82: Train Loss 0.0285, Acc 0.9972, IoU_Class0 0.9969, IoU_Class1 0.9723, mIoU 0.9846
+Epoch 82: Val Acc 0.9967, IoU_Class0 0.9964, IoU_Class1 0.9682, Val mIoU 0.9823
+--- Starting Epoch 83/100 ---
+Epoch 83 training time: 1676.48s, LR: 0.000079
+Epoch 83: Train Loss 0.0283, Acc 0.9972, IoU_Class0 0.9969, IoU_Class1 0.9727, mIoU 0.9848
+Epoch 83: Val Acc 0.9963, IoU_Class0 0.9959, IoU_Class1 0.9643, Val mIoU 0.9801
+--- Starting Epoch 84/100 ---
+Epoch 84 training time: 1674.64s, LR: 0.000071
+Epoch 84: Train Loss 0.0277, Acc 0.9973, IoU_Class0 0.9970, IoU_Class1 0.9733, mIoU 0.9852
+Epoch 84: Val Acc 0.9969, IoU_Class0 0.9966, IoU_Class1 0.9702, Val mIoU 0.9834
+--- Starting Epoch 85/100 ---
+Epoch 85 training time: 1675.44s, LR: 0.000063
+Epoch 85: Train Loss 0.0269, Acc 0.9973, IoU_Class0 0.9970, IoU_Class1 0.9739, mIoU 0.9855
+Epoch 85: Val Acc 0.9972, IoU_Class0 0.9968, IoU_Class1 0.9723, Val mIoU 0.9846
+--- Starting Epoch 86/100 ---
+Epoch 86 training time: 1675.11s, LR: 0.000055
+Epoch 86: Train Loss 0.0268, Acc 0.9973, IoU_Class0 0.9971, IoU_Class1 0.9740, mIoU 0.9855
+Epoch 86: Val Acc 0.9957, IoU_Class0 0.9952, IoU_Class1 0.9588, Val mIoU 0.9770
+--- Starting Epoch 87/100 ---
+Epoch 87 training time: 1675.44s, LR: 0.000049
+Epoch 87: Train Loss 0.0258, Acc 0.9975, IoU_Class0 0.9972, IoU_Class1 0.9754, mIoU 0.9863
+Epoch 87: Val Acc 0.9965, IoU_Class0 0.9961, IoU_Class1 0.9661, Val mIoU 0.9811
+--- Starting Epoch 88/100 ---
+Epoch 88 training time: 1676.65s, LR: 0.000042
+Epoch 88: Train Loss 0.0261, Acc 0.9974, IoU_Class0 0.9972, IoU_Class1 0.9749, mIoU 0.9861
+Epoch 88: Val Acc 0.9965, IoU_Class0 0.9962, IoU_Class1 0.9665, Val mIoU 0.9813
+--- Starting Epoch 89/100 ---
+Epoch 89 training time: 1675.21s, LR: 0.000036
+Epoch 89: Train Loss 0.0254, Acc 0.9975, IoU_Class0 0.9972, IoU_Class1 0.9756, mIoU 0.9864
+Epoch 89: Val Acc 0.9963, IoU_Class0 0.9959, IoU_Class1 0.9646, Val mIoU 0.9803
+--- Starting Epoch 90/100 ---
+Epoch 90 training time: 1676.52s, LR: 0.000031
+Epoch 90: Train Loss 0.0256, Acc 0.9975, IoU_Class0 0.9972, IoU_Class1 0.9753, mIoU 0.9863
+Epoch 90: Val Acc 0.9965, IoU_Class0 0.9961, IoU_Class1 0.9664, Val mIoU 0.9813
+--- Starting Epoch 91/100 ---
+Epoch 91 training time: 1675.14s, LR: 0.000025
+Epoch 91: Train Loss 0.0259, Acc 0.9975, IoU_Class0 0.9972, IoU_Class1 0.9751, mIoU 0.9861
+Epoch 91: Val Acc 0.9967, IoU_Class0 0.9963, IoU_Class1 0.9677, Val mIoU 0.9820
+--- Starting Epoch 92/100 ---
+Epoch 92 training time: 1676.34s, LR: 0.000021
+Epoch 92: Train Loss 0.0241, Acc 0.9976, IoU_Class0 0.9974, IoU_Class1 0.9769, mIoU 0.9872
+Epoch 92: Val Acc 0.9968, IoU_Class0 0.9964, IoU_Class1 0.9686, Val mIoU 0.9825
+--- Starting Epoch 93/100 ---
+Epoch 93 training time: 1675.29s, LR: 0.000017
+Epoch 93: Train Loss 0.0244, Acc 0.9976, IoU_Class0 0.9973, IoU_Class1 0.9765, mIoU 0.9869
+Epoch 93: Val Acc 0.9969, IoU_Class0 0.9966, IoU_Class1 0.9701, Val mIoU 0.9834
+--- Starting Epoch 94/100 ---
+Epoch 94 training time: 1676.42s, LR: 0.000013
+Epoch 94: Train Loss 0.0239, Acc 0.9977, IoU_Class0 0.9974, IoU_Class1 0.9771, mIoU 0.9873
+Epoch 94: Val Acc 0.9968, IoU_Class0 0.9965, IoU_Class1 0.9694, Val mIoU 0.9829
+--- Starting Epoch 95/100 ---
+Epoch 95 training time: 1674.32s, LR: 0.000010
+Epoch 95: Train Loss 0.0249, Acc 0.9976, IoU_Class0 0.9973, IoU_Class1 0.9762, mIoU 0.9868
+Epoch 95: Val Acc 0.9966, IoU_Class0 0.9962, IoU_Class1 0.9666, Val mIoU 0.9814
+--- Starting Epoch 96/100 ---
+Epoch 96 training time: 1676.61s, LR: 0.000007
+Epoch 96: Train Loss 0.0244, Acc 0.9976, IoU_Class0 0.9973, IoU_Class1 0.9765, mIoU 0.9869
+Epoch 96: Val Acc 0.9967, IoU_Class0 0.9964, IoU_Class1 0.9683, Val mIoU 0.9823
+--- Starting Epoch 97/100 ---
+Epoch 97 training time: 1674.41s, LR: 0.000005
+Epoch 97: Train Loss 0.0242, Acc 0.9976, IoU_Class0 0.9974, IoU_Class1 0.9767, mIoU 0.9871
+Epoch 97: Val Acc 0.9969, IoU_Class0 0.9966, IoU_Class1 0.9699, Val mIoU 0.9832
+--- Starting Epoch 98/100 ---
+Epoch 98 training time: 1675.88s, LR: 0.000003
+Epoch 98: Train Loss 0.0238, Acc 0.9977, IoU_Class0 0.9974, IoU_Class1 0.9772, mIoU 0.9873
+Epoch 98: Val Acc 0.9969, IoU_Class0 0.9966, IoU_Class1 0.9700, Val mIoU 0.9833
+--- Starting Epoch 99/100 ---
+Epoch 99 training time: 1674.48s, LR: 0.000002
+Epoch 99: Train Loss 0.0239, Acc 0.9977, IoU_Class0 0.9974, IoU_Class1 0.9771, mIoU 0.9873
+Epoch 99: Val Acc 0.9966, IoU_Class0 0.9963, IoU_Class1 0.9675, Val mIoU 0.9819
+--- Starting Epoch 100/100 ---
+Epoch 100 training time: 1674.97s, LR: 0.000001
+Epoch 100: Train Loss 0.0241, Acc 0.9976, IoU_Class0 0.9973, IoU_Class1 0.9765, mIoU 0.9869
+Epoch 100: Val Acc 0.9968, IoU_Class0 0.9964, IoU_Class1 0.9685, Val mIoU 0.9824
+Training complete. Best val mIoU 0.9846 at epoch 85

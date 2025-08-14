@@ -445,7 +445,7 @@ def load_s3dis_instance(folder, name2cls, load_name=['chair']):
     return instances
 
 
-def cal_loss(pred, gold, smoothing=False, ignore_index=255):
+def cal_loss(pred, gold, weight=None, smoothing=False, ignore_index=255):
     ''' Calculate cross entropy loss, apply label smoothing if needed. '''
 
     gold = gold.contiguous().view(-1)
@@ -461,10 +461,33 @@ def cal_loss(pred, gold, smoothing=False, ignore_index=255):
         loss = -(one_hot * log_prb).sum(dim=1).mean()
     else:
         loss = F.cross_entropy(
-            pred, gold, reduction='mean',
+            pred, gold, weight=weight,
+            reduction='mean',
             ignore_index=ignore_index)
 
     return loss
+
+
+def dice_loss(pred, gold, smooth=1e-6):
+    """
+    Compute Dice loss for binary segmentation (target vs. background).
+    pred: Tensor of shape (B, C, N) or (B*N, C) before softmax.
+    gold: Tensor of shape (B, N) or (B*N,) with values 0 or 1.
+    """
+    # flatten gold to (B*N,)
+    gold_flat = gold.contiguous().view(-1).float()
+    # compute probabilities via softmax
+    probs = F.softmax(pred, dim=1)
+    # if probs is (B, C, N), reshape to (B*N, C)
+    if probs.dim() == 3:
+        probs = probs.permute(0, 2, 1).contiguous().view(-1, probs.size(1))
+    # take probability of target class (1)
+    p1 = probs[:, 1]
+    # compute Dice
+    intersection = (p1 * gold_flat).sum()
+    denom = p1.sum() + gold_flat.sum()
+    dice_coeff = (2 * intersection + smooth) / (denom + smooth)
+    return 1 - dice_coeff
 
 
 class IOStream():
