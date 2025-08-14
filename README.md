@@ -60,10 +60,11 @@ Use your saved checkpoint to run inference on a PCD file. Example PCDs live unde
 
 ```bash
 python dgcnn_inference.py \
-  --ckpt checkpoints/best_epoch_85.pth \
-  --pcd segmentation/realworld_scene/scene_01.pcd
-# optional: view flags
-python dgcnn_inference.py -h
+    --checkpoint /home/s2671222/dgcnn.pytorch/outputs/market77_optim/models/best_model.pth \
+    --input_pcd /home/s2671222/dgcnn.pytorch/segmentation/realworld_scene/realworld_scene_1.pcd \
+    --output_ply /home/s2671222/dgcnn.pytorch/segmentation/results/dgcnn_segment/scene_segmented1_dgcn_best_1.ply \
+    --grid_size 0.389 \
+    --overlap 0.3
 ```
 
 The inference utility removes invalid/NaN points, can chunk large clouds with voting, and writes/visualizes the predicted segmentation (object vs. background).
