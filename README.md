@@ -118,7 +118,7 @@ dgcnn.pytorch/
 ---
 
 ## Tips & Troubleshooting
-- **CUDA / memory:** reduce batch size or neighborhood size `k` if you hit OOM.
+- **CUDA / memory:** reduce batch size if you hit OOM.
 - **PCD ingest:** ensure `.pcd` files are valid; the inference script removes invalid points but cannot fix corrupted files.
 - **Paths:** double‑check dataset and checkpoint paths and CLI arguments.
 
